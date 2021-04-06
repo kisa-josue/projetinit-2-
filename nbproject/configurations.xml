@@ -4,7 +4,11 @@
     <logicalFolder name="HeaderFiles"
                    displayName="Header Files"
                    projectFiles="true">
+      <itemPath>../testclass/defs/Commande.h</itemPath>
       <itemPath>../../projet vsc/ExtractionArg.h</itemPath>
+      <itemPath>../testclass/defs/TypeCommande.h</itemPath>
+      <itemPath>../testclass/defs/TypeMisEtat.h</itemPath>
+      <itemPath>sauvegarder.h</itemPath>
     </logicalFolder>
     <logicalFolder name="ResourceFiles"
                    displayName="Resource Files"
@@ -13,8 +17,12 @@
     <logicalFolder name="SourceFiles"
                    displayName="Source Files"
                    projectFiles="true">
+      <itemPath>../testclass/src/Commande.cpp</itemPath>
       <itemPath>../../projet vsc/ExtractionArg.cpp</itemPath>
+      <itemPath>../testclass/src/TypeCommande.cpp</itemPath>
+      <itemPath>../testclass/src/TypeMisEtat.cpp</itemPath>
       <itemPath>../../projet vsc/main.cpp</itemPath>
+      <itemPath>sauvegarder.cpp</itemPath>
     </logicalFolder>
     <logicalFolder name="TestFiles"
                    displayName="Test Files"
@@ -44,6 +52,22 @@
       </item>
       <item path="../../projet vsc/main.cpp" ex="false" tool="1" flavor2="0">
       </item>
+      <item path="../testclass/defs/Commande.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../testclass/defs/TypeCommande.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../testclass/defs/TypeMisEtat.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../testclass/src/Commande.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../testclass/src/TypeCommande.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../testclass/src/TypeMisEtat.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="sauvegarder.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="sauvegarder.h" ex="false" tool="3" flavor2="0">
+      </item>
     </conf>
     <conf name="Release" type="1">
       <toolsSet>
@@ -70,6 +94,22 @@
       <item path="../../projet vsc/ExtractionArg.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="../../projet vsc/main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../testclass/defs/Commande.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../testclass/defs/TypeCommande.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../testclass/defs/TypeMisEtat.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../testclass/src/Commande.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../testclass/src/TypeCommande.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../testclass/src/TypeMisEtat.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="sauvegarder.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="sauvegarder.h" ex="false" tool="3" flavor2="0">
       </item>
     </conf>
   </confs>

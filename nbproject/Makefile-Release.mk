@@ -36,7 +36,11 @@ OBJECTDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}
 # Object Files
 OBJECTFILES= \
 	${OBJECTDIR}/_ext/442d0992/ExtractionArg.o \
-	${OBJECTDIR}/_ext/442d0992/main.o
+	${OBJECTDIR}/_ext/442d0992/main.o \
+	${OBJECTDIR}/_ext/d52f026c/Commande.o \
+	${OBJECTDIR}/_ext/d52f026c/TypeCommande.o \
+	${OBJECTDIR}/_ext/d52f026c/TypeMisEtat.o \
+	${OBJECTDIR}/sauvegarder.o
 
 
 # C Compiler Flags
@@ -72,6 +76,26 @@ ${OBJECTDIR}/_ext/442d0992/main.o: ../../projet\ vsc/main.cpp
 	${MKDIR} -p ${OBJECTDIR}/_ext/442d0992
 	${RM} "$@.d"
 	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/_ext/442d0992/main.o ../../projet\ vsc/main.cpp
+
+${OBJECTDIR}/_ext/d52f026c/Commande.o: ../testclass/src/Commande.cpp 
+	${MKDIR} -p ${OBJECTDIR}/_ext/d52f026c
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/_ext/d52f026c/Commande.o ../testclass/src/Commande.cpp
+
+${OBJECTDIR}/_ext/d52f026c/TypeCommande.o: ../testclass/src/TypeCommande.cpp 
+	${MKDIR} -p ${OBJECTDIR}/_ext/d52f026c
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/_ext/d52f026c/TypeCommande.o ../testclass/src/TypeCommande.cpp
+
+${OBJECTDIR}/_ext/d52f026c/TypeMisEtat.o: ../testclass/src/TypeMisEtat.cpp 
+	${MKDIR} -p ${OBJECTDIR}/_ext/d52f026c
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/_ext/d52f026c/TypeMisEtat.o ../testclass/src/TypeMisEtat.cpp
+
+${OBJECTDIR}/sauvegarder.o: sauvegarder.cpp 
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/sauvegarder.o sauvegarder.cpp
 
 # Subprojects
 .build-subprojects:
